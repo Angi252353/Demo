@@ -4,8 +4,7 @@ pipeline {
         stage('Build') {
             steps {
                 bat '''
-                echo Hello World!
-                set
+                copy C:\angi_proj\file1.txt E:\angi_project\testing
                 '''
             }
         }
